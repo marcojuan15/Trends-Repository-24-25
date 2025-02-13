@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark John M. Tres Reyes - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #DDDDDD;
+            color: #222831;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 2rem;
+        }
+
+        .left-column {
+            background-color: #222831;
+            color: #EEEEEE;
+            padding: 2rem;
+            border-radius: 10px;
+        }
+
+        .right-column {
+            padding: 2rem;
+            background-color: #EEEEEE;
+            border-radius: 10px;
+        }
+
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 2rem;
+            display: block;
+            border: 4px solid #EEEEEE;
+        }
+
+        h1, h2, h3 {
+            color: #222831;
+            margin-top: 1.5rem;
+        }
+
+        .title{
+            margin-top: -1rem;
+        }
+
+        .left-column h2 {
+            color: #EEEEEE;
+            border-bottom: 2px solid #EEEEEE;
+        }
+
+        hr {
+            border: none;
+            border-top: 2px solid #222831;
+            margin: 1.5rem 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+
+        th, td {
+            padding: 0.5rem;
+            text-align: left;
+            border: 1px solid #222831;
+        }
+
+        th {
+            background-color: #222831;
+            color: #EEEEEE;
+        }
+
+        .skills-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .skills-list li {
+            background-color: #EEEEEE;
+            color: #222831;
+            padding: 0.5rem 1rem;
+            border-radius: 3px;
+            margin-bottom: 0.5rem;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .personal-statement {
+            background-color: #222831;
+            color: #EEEEEE;
+            padding: 1.5rem;
+            border-radius: 5px;
+            margin: 1.5rem 0;
+            font-style: italic;
+        }
+
+        .work-experience {
+            border-left: 3px solid #222831;
+            padding-left: 1rem;
+            margin: 1rem 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <img src="profileTresReyes.jpg" alt="Mark John M. Tres Reyes" class="profile-img"></img>
+            
+            <h2>Contact Information</h2>
+            <p><b>Phone Number:</b> <br> 09463011907</p>
+            <p><b>Email Address:</b> markjohntresreyes@gmail.com</p>
+
+            <h2>Address</h2>
+            <p>Block 11 Lot 47, Villa Obiedo Subdivision, Cararayan, Naga City</p>
+
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Problem Solving</li>
+                <li>Program Development</li>
+                <li>Web Development</li>
+                <li>Critical Thinking</li>
+                <li>Video Editing</li>
+                <li>Adaptability</li>
+                <li>Attention to Detail</li>
+            </ul>
+        </div>
+
+        <div class="right-column">
+            <h1>MARK JOHN M. TRES REYES</h1>
+            <h2 class="title">BS Computer Science Student</h2>
+            <hr>
+
+            <div class="personal-statement">
+                Hi! I'm Mark, a college student with big dreams of becoming a top-tier website designer. My journey began with a deep fascination for programming, which naturally led me to web design and software development. Looking ahead, I aspire to build my own company, offering a wide range of tech services—from video editing and web design to cutting-edge AI solutions and application development.
+            </div>
+
+            <h3>Education</h3>
+            <table>
+                <tr>
+                    <th>Level</th>
+                    <th>Institution</th>
+                </tr>
+                <tr>
+                    <td>Senior High School</td>
+                    <td>Philippine Science High School – BRC</td>
+                </tr>
+                <tr>
+                    <td>Junior High School</td>
+                    <td>Philippine Science High School – BRC</td>
+                </tr>
+                <tr>
+                    <td>Elementary</td>
+                    <td>Tabuco Central School</td>
+                </tr>
+            </table>
+
+            <h3>Work Experience</h3>
+            <div class="work-experience">
+                <p><b>Freelance Video Editor</b> <i>(2023 – Present)</i></p>
+                <ol>
+                    <li>Provide professional video editing services on Upwork, specializing in YouTube Shorts, Instagram Reels, and social media content.</li>
+                    <li>Create engaging thumbnails and cover designs to enhance viewer engagement.</li>
+                    <li>Edit and optimize videos for maximum audience retention and platform-specific algorithms.</li>
+                </ol>
+            </div>
+
+            <h3>Character References</h3>
+            <table>
+                <tr>
+                    <th>Institution</th>
+                    <th>Contact Details</th>
+                </tr>
+                <tr>
+                    <td>PHILIPPINE SCIENCE HIGH SCHOOL - BRC</td>
+                    <td>871-2280 | ocd@brc.pshs.edu.ph</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
